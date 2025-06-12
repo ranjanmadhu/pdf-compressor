@@ -1,0 +1,44 @@
+{
+  "name": "pdf-compressor",
+  "version": "1.0.0",
+  "description": "PDF compression tool with multiple optimization techniques",
+  "main": "index.js",
+  "bin": {
+    "pdf-compressor": "./bin/pdf-compressor.js"
+  },
+  "scripts": {
+    "start": "node ./bin/pdf-compressor.js",
+    "test": "node ./bin/test-installation.js",
+    "example": "node ./examples/usage-examples.js",
+    "setup": "node ./bin/setup-dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjanmadhu/pdf-compressor.git"
+  },
+  "keywords": [
+    "pdf",
+    "compression",
+    "optimize",
+    "reduce",
+    "size"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ranjanmadhu/pdf-compressor/issues"
+  },
+  "homepage": "https://github.com/ranjanmadhu/pdf-compressor#readme",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "pdf-compressor": "^1.0.5",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.34.2",
+    "uuid": "^11.1.0"
+  }
+}

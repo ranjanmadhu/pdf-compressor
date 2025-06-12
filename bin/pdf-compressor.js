@@ -12,7 +12,7 @@ const PDFCompressor = require('../src/PDFCompressor');
 const program = new Command();
 
 program
-    .name('pdf-compressor')
+    .name('advanced-pdf-compressor')
     .description('Compress PDF files using multiple techniques')
     .version('1.0.0');
 

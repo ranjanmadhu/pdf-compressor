@@ -1,10 +1,10 @@
 {
-  "name": "pdf-compressor",
+  "name": "advanced-pdf-compressor",
   "version": "1.0.0",
   "description": "PDF compression tool with multiple optimization techniques",
   "main": "index.js",
   "bin": {
-    "pdf-compressor": "./bin/pdf-compressor.js"
+    "advanced-pdf-compressor": "bin/pdf-compressor.js"
   },
   "scripts": {
     "start": "node ./bin/pdf-compressor.js",
@@ -23,7 +23,7 @@
     "reduce",
     "size"
   ],
-  "author": "",
+  "author": "Madhu Ranjan",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -35,7 +35,6 @@
     "fs-extra": "^11.3.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
-    "pdf-compressor": "^1.0.5",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
     "sharp": "^0.34.2",

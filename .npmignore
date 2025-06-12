@@ -1,0 +1,27 @@
+# Development and test files
+examples/test-files/
+temp/
+*.test.js
+*.spec.js
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+.circleci/
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-*
+.editorconfig
+
+# Misc
+.DS_Store
+*.log
+*.bak
+*.swp

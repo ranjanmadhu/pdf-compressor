@@ -1,4 +1,4 @@
-# PDF Compressor
+# Advanced PDF Compressor
 
 A Node.js library and command-line tool for compressing PDF files using multiple optimization techniques.
 
@@ -19,21 +19,21 @@ A Node.js library and command-line tool for compressing PDF files using multiple
 ### Global Installation
 
 ```bash
-npm install -g pdf-compressor
+npm install -g advanced-pdf-compressor
 ```
 
-This will make the `pdf-compressor` command available globally.
+This will make the `advanced-pdf-compressor` command available globally.
 
 ### Local Installation
 
 ```bash
-npm install pdf-compressor
+npm install advanced-pdf-compressor
 ```
 
 ## Command-Line Usage
 
 ```bash
-pdf-compressor [options] <input> [output]
+advanced-pdf-compressor [options] <input> [output]
 ```
 
 ### Arguments
@@ -56,17 +56,17 @@ pdf-compressor [options] <input> [output]
 
 Compress a single PDF file:
 ```bash
-pdf-compressor document.pdf
+advanced-pdf-compressor document.pdf
 ```
 
 Compress a PDF file with custom options:
 ```bash
-pdf-compressor --image-quality 70 --compression-level 4 --grayscale document.pdf compressed.pdf
+advanced-pdf-compressor --image-quality 70 --compression-level 4 --grayscale document.pdf compressed.pdf
 ```
 
 Compress all PDFs in a directory:
 ```bash
-pdf-compressor --recursive ./documents ./compressed-documents
+advanced-pdf-compressor --recursive ./documents ./compressed-documents
 ```
 
 ## Programmatic Usage
@@ -74,7 +74,7 @@ pdf-compressor --recursive ./documents ./compressed-documents
 You can also use PDF Compressor as a library in your Node.js applications.
 
 ```javascript
-const PDFCompressor = require('pdf-compressor');
+const PDFCompressor = require('advanced-pdf-compressor');
 
 // Create a compressor with default options
 const compressor = new PDFCompressor();
